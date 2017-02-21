@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fortune Teller</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Learn Your Fortune...</h1>
+    </div>
+    <form id="formOne">
+      <div class="form-group">
+        <p>Check all the unlucky things you've experienced in the past month:</p>
+        <input type="checkbox" name="unlucky" value="cat">Saw several black cats<br>
+        <input type="checkbox" name="unlucky" value="cat">Looked in a mirror and it shattered<br>
+        <input type="checkbox" name="unlucky" value="cat">Skipped underneath a ladder (twice)<br>
+        <input type="checkbox" name="unlucky" value="cat">You work on the 13th floor...<br>
+      </div>
+      <div class="form-group">
+        <p>Check all the lucky things you've experienced in the past month:</p>
+        <input type="checkbox" name="unlucky" value="cat">Bird pooped on you<br>
+        <input type="checkbox" name="unlucky" value="cat">A ladybug landed on your nose<br>
+        <input type="checkbox" name="unlucky" value="cat">Found a four leaf clover<br>
+        <input type="checkbox" name="unlucky" value="cat">Found a pot of gold at the end of the double rainbow<br>
+      </div>
+      <button type="submit" class="btn">Tell my fortune</button>
+    </form>
+    <div class="results">
+      <p id="results"></p>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.jumbotron {
+  background-image: url("../img/big.gif");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
